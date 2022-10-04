@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Чат</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+   <div class="container">
+      <div id="blockSendMessage" class="row">
+         <div class="chat" name="publish">
+            <input type="text"  id="input" name="message" placeholder="Напишите сообщение">
+            <button class="btn" type="button" id="btnSend">Отправить</button>
+            <button class="btn btn-geo">Гео-позиция</button>
+            <div class="geo-div">
+                <div class="geo">
+                    <p id="status"></p>
+                    <a id="map" ></a>
+                 </div>
+            </div>
+            <div id="divMessages" class="message ">
+            </div>
+
+         </div>
+      </div>
+   </div>
+</body>
+<script src="script.js"></script>
+
+</html>
